@@ -1,0 +1,93 @@
+const header = document.querySelector('header');
+header.innerHTML = `
+        <nav class="main-nav">
+            <div class="logo">El Meson Canario</div>
+            <section class="links">
+                <a href="#">Menu</a>
+                <a href="#">Catering</a>
+                <a href="#">Take away</a>
+                <a href="#">Contact</a>
+                <div class="btn">
+                    <img src="images/icons/burger-menu.svg" alt="burger menu">
+                </div>
+            </section>
+
+        </nav>
+`;
+
+
+const footer = document.querySelector('footer');
+footer.innerHTML = `
+        <section class="upper-footer">
+
+            <div class="hours">
+                <h3 class="footer-heading">Åbningstider</h3>
+                <ul>
+                    <li>Alle dage</li>
+                    <li>15 - 22</li>
+                </ul>
+            </div>
+
+            <div class="contact">
+                <h3 class="footer-heading">Kontakt</h3>
+                <ul>
+                    <li>+45 50 53 91 38</li>
+                    <li>Mail: xjuan8@hotmail.com</li>
+                </ul>
+            </div>
+
+            <nav class="sitemap">
+                <h3 class="footer-heading">Sitemap</h3>
+                <ul>
+                    <li><a href="#">Catering</a></li>
+                    <li><a href="#">Take Away</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                    <li><a href="#">Om os</a></li>
+                    <li><a href="#">Begivenheder</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Forside</a></li>
+                </ul>
+            </nav>
+
+            <div class="some">
+                <h3 class="footer-heading">Følg os på</h3>
+                <div class="icon">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-youtube-square"></i>
+                </div>
+            </div>
+
+            <div class="about">
+                <h3 class="footer-heading">Om os</h3>
+                <p>Med alle vores traditionelle, autentiske og ægte spanske PAELLAS, TINTOS, TAPAS og SANGRIA, har vi noget til enhver smag.</p>
+            </div>
+
+        </section>
+
+        <section class="middle-footer">
+
+            <div class="gallery">
+                <h3 class="footer-heading">Gallery</h3>
+                <img src="images/stock/tapas-restaurant-el-meson-canario%20(1).jpg" alt="">
+                <img src="images/stock/tapas-restaurant-el-meson-canario%20(2).jpg" alt="">
+                <img src="images/stock/tapas-restaurant-el-meson-canario%20(3).jpg" alt="">
+                <img src="images/stock/tapas-restaurant-el-meson-canario%20(7).jpg" alt="">
+                <img src="images/stock/tapas-restaurant-el-meson-canario%20(5).jpg" alt="">
+                <img src="images/stock/tapas-restaurant-el-meson-canario%20(6).jpg" alt="">
+            </div>
+
+            <div class="location">
+                <h3 class="footer-heading">Find os her</h3>
+                <h4>Rågeleje Strandvej 93, 3210 Vejby</h4>
+                <img src="images/map.PNG" alt="a map" class="map" height="300px">
+            </div>
+
+        </section>
+
+
+        <section class="buttom-footer">
+            <strong>El Meson Canario - 2020</strong>
+        </section>
+`;

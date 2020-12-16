@@ -1,3 +1,4 @@
+/*
 fetch('https://quater.org/restaurant-information/wp-json/wp/v2/dish?_embed&per_page=100')
     .then(response => response.json())
     .then(handleData)
@@ -16,3 +17,4 @@ function loopDishes(dish){
     document.querySelector('main').appendChild(p);
 
 }
+*/
