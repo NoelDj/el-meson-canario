@@ -1,12 +1,18 @@
+/*Creating the header and footer inside a js files, helps me save time.
+So I dont have to change the markup in each single html file.
+I can just adjust the markup from this js file.*/
+
+/*header*/
 const header = document.querySelector('header');
 header.innerHTML = `
         <nav class="main-nav">
-            <div class="logo">El Meson Canario</div>
+            <div class="logo"><a href="index.html">El Meson Canario</a></div>
             <section class="links">
                 <a href="#">Menu</a>
-                <a href="#">Catering</a>
-                <a href="#">Take away</a>
+                <a href="catering.html">Catering</a>
+                <a href="takeaway.html">Take away</a>
                 <a href="#">Contact</a>
+                <a href="about.html">Om os</a>
                 <div class="btn">
                     <img src="images/icons/burger-menu.svg" alt="burger menu">
                 </div>
@@ -15,7 +21,7 @@ header.innerHTML = `
         </nav>
 `;
 
-
+/*footer*/
 const footer = document.querySelector('footer');
 footer.innerHTML = `
         <section class="upper-footer">
