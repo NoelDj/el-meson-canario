@@ -59,9 +59,9 @@ footer.innerHTML = `
             <div class="some">
                 <h3 class="footer-heading">Følg os på</h3>
                 <div class="icon">
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-twitter-square"></i>
-                <i class="fab fa-youtube-square"></i>
+                <a href="https://www.facebook.com/GastronomiskTapasBureauELMESONCANARIO"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/juanrecinosjensen/"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://www.youtube.com/channel/UCAglUoCIaEUGVFSeWV6qRAw"><i class="fab fa-youtube-square"></i></a>
                 </div>
             </div>
 

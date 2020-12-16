@@ -1,5 +1,4 @@
-/*
-fetch('https://quater.org/restaurant-information/wp-json/wp/v2/dish?_embed&per_page=100')
+fetch('https://quater.org/assignment/wp-json/wp/v2/property?_embed')
     .then(response => response.json())
     .then(handleData)
 
@@ -14,7 +13,9 @@ function loopDishes(dish){
 
     const p = document.createElement('p');
     p.textContent = dish.title.rendered;
-    document.querySelector('main').appendChild(p);
 
+    const img = document.createElement('img');
+    img.src = src= dish._embedded['wp:featuredmedia'][0].source_url
+
+    document.querySelector('main').appendChild(img);
 }
-*/
