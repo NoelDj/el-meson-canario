@@ -12,7 +12,7 @@
     --dark: #2B2335;
     --yellow: #ECC351;
     --orange: #D16635;
-    --greeen: #4EB15F;
+    --green: #4EB15F;
     --red: #B14E62;
 
     --width: 1100px;
@@ -92,6 +92,10 @@ p {
     line-height: 1.8;
     color: var(--dark);
     font-size: 18px;
+}
+
+img {
+    width: 100%;
 }
 
 .body-img {

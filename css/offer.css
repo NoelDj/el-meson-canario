@@ -1,0 +1,42 @@
+.offer-card {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 300px;
+    margin-bottom: 30px;
+    box-shadow: var(--shadow);
+    border-radius: 20px;
+
+}
+
+.offer-title {
+    margin-bottom: 20px;
+}
+
+.offer-img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 0 0 20px;
+}
+
+.offer-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    position: relative;
+}
+
+.offer-description {
+    margin-bottom: 130px;
+}
+
+.offer-price {
+    color: var(--green);
+    align-self: baseline;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+}

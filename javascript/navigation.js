@@ -14,6 +14,7 @@ header.innerHTML = `
                 <a href="#">Contact</a>
                 <a href="about.html">Om os</a>
                 <a href="gallery.html">Galleri</a>
+                <a href="offers.html">Tilbud</a>
                 <div class="btn">
                     <img src="images/icons/burger-menu.svg" alt="burger menu">
                 </div>
