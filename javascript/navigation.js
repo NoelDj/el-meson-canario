@@ -13,6 +13,7 @@ header.innerHTML = `
                 <a href="takeaway.html">Take away</a>
                 <a href="#">Contact</a>
                 <a href="about.html">Om os</a>
+                <a href="gallery.html">Galleri</a>
                 <div class="btn">
                     <img src="images/icons/burger-menu.svg" alt="burger menu">
                 </div>

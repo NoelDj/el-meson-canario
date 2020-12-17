@@ -16,7 +16,7 @@
 /*grid container*/
 .dishes {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
     grid-gap: 40px;
 }
 
@@ -33,6 +33,7 @@ input[type="reset"] {
     font: inherit;
     cursor: pointer;
     outline: inherit;
+    display: inline-block;
 }
 
 .options {
@@ -40,6 +41,7 @@ input[type="reset"] {
     display: flex;
     border-radius: 20px;
     margin-bottom: 30px;
+    align-items: center;
 
     background: #ececec;
 }
@@ -64,6 +66,7 @@ input[type="reset"] {
 
 .filter {
     padding: 20px;
+    display: block;
 }
 
 .filter:nth-child(1) {
