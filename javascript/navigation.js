@@ -8,7 +8,7 @@ header.innerHTML = `
         <nav class="main-nav">
             <div class="logo"><a href="index.html">El Meson Canario</a></div>
             <section class="links">
-                <a href="#">Menu</a>
+                <a href="menu.html">Menu</a>
                 <a href="catering.html">Catering</a>
                 <a href="takeaway.html">Take away</a>
                 <a href="#">Contact</a>
