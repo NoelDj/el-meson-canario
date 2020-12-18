@@ -1,14 +1,16 @@
 fetch('http://quater.org/portfolio/wp-json/wp/v2/dish?per_page=20&_embed')
     .then(response => response.json())
-    .then(handleData)
+    .then(handleData);
 
-function handleData(data){
+const modal = document.querySelector(".modal-background");
+
+function handleData(data) {
     console.log(data)
     data.forEach(loopDishes)
 
 }
 
-function loopDishes(dish){
+function loopDishes(dish) {
     console.log(dish.title.rendered)
 
     const template = document.querySelector("#dish-menu").content;
@@ -17,6 +19,26 @@ function loopDishes(dish){
     copy.querySelector('.dish-name').textContent = dish.title.rendered;
     copy.querySelector('img').src = dish._embedded['wp:featuredmedia'][0].source_url;
 
+    copy.querySelector("article").addEventListener("click", () => {
+        fetch(`http://quater.org/portfolio/wp-json/wp/v2/dish/${dish.id}?_embed`)
+            .then(res => res.json())
+            .then(showDetails);
+    });
+
+    function showDetails(id) {
+        console.log(id._embedded['wp:featuredmedia'][0].source_url);
+        modal.querySelector(".modal-image").src = id._embedded['wp:featuredmedia'][0].source_url;
+        modal.querySelector(".modal-name").textContent = id.title.rendered;
+        modal.querySelector(".modal-description").textContent = id.description;
+
+        //...
+        modal.classList.remove("hide");
+    }
+
     document.querySelector('.dishes').appendChild(copy);
 
 }
+
+modal.addEventListener("click", () => {
+    modal.classList.add("hide");
+});
