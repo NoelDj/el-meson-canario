@@ -9,21 +9,189 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Meson Canario - Tapas bar</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/menu.css">
 </head>
 
-<body>
+<body class="homepage">
 
     <header>
 
     </header>
 
     <main>
-        <h1>Forside</h1>
+
+        <section class="hero">
+            <h1 class="hero-h1">Tapas for alle</h1>
+            <p class="hero-p">Med alle vores traditionelle, autentiske og ægte spanske PAELLAS, TINTOS, TAPAS og SANGRIA, har vi noget til enhver smag.</p>
+            <a href="" class="hero-a">Se Menu</a>
+        </section>
+
+        <section class="cta">
+            <div class="cards">
+
+                <article>
+                    <img src="images/stock/tapas-restaurant-el-meson-canario%20(17).jpg" alt="" class="cta-img">
+                    <h2 class="cta-h2">Catering</h2>
+                    <p class="cta-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, consectetur.</p>
+                    <a href="catering.html" class="cta-a">Læs Mere</a>
+                </article>
+
+                <article>
+                    <img src="images/stock/tapas-restaurant-el-meson-canario%20(22).jpg" alt="" class="cta-img">
+                    <h2 class="cta-h2">Kontakt</h2>
+                    <p class="cta-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, at.</p>
+                    <a href="contact.html" class="cta-a">Læs Mere</a>
+                </article>
+
+                <article>
+                    <img src="images/stock/tapas-restaurant-el-meson-canario%20(36).jpg" alt="" class="cta-img">
+                    <h2 class="cta-h2">Take Away</h2>
+                    <p class="cta-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, facilis.</p>
+                    <a href="takeaway.html" class="cta-a">Læs Mere</a>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="videos">
+            <div class="container">
+                <video controls poster="images/stock/tapas-restaurant-el-meson-canario%20(16).jpg" id="player">
+                    <!-- Video files -->
+                    <source src="video/Takeaway_MesonCanario.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <section class="card-menu">
+            <h2>Menu</h2>
+
+
+            <div class="options">
+                <button class="filter">Alle</button>
+                <button class="filter">Starter</button>
+                <button class="filter">Hovedret</button>
+                <button class="filter">Drikke</button>
+                <button class="download">Download Menu</button>
+            </div>
+
+            <section class="dishes">
+                <template id="dish-menu">
+                    <article class="dish-card">
+                        <div class="img-box">
+                            <img src="images/stock/tapas-restaurant-el-meson-canario%20(10).jpg" alt="" class="dish-img">
+                        </div>
+                        <a href="" class="dish-name"></a>
+                    </article>
+                </template>
+            </section>
+
+        </section>
+
+        <section class="offers">
+
+            <div class="offers-wrapper">
+                <div class="offer-content">
+                    <h2>Tilbud</h2>
+                    <p>Hos os kan i nu også købe julegave/værtindegave og gavekort til madoplevelser. 325 225 kr</p>
+                    <a href="offers.html">Se flere tilbud</a>
+                </div>
+                <img src="images/stock/5.jpg" alt="" class="offers-image">
+            </div>
+
+        </section>
+
+        <section class="offers white">
+
+            <div class="offers-wrapper">
+                <img src="images/stock/tapas-restaurant-el-meson-canario%20(7).jpg" alt="" class="offers-image">
+                <div class="offer-content">
+                    <h2>Praktisk information</h2>
+                    <p>Store ambitioner i en lille familieejet restaurant, med autentisk spansk mad, når det er bedst, med stor smag og kærlighed til det enkle.Bestil bord på: 50539138 eller kom forbi vores restaurant, Rågeleje Strandvej 93 – Rågeleje.
+                    </p>
+                    <a href="contact.html">Find os</a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="testimonial">
+
+            <div class="testimonial-wrapper">
+                <h2 class="testimonial-h2">Det siger de om os</h2>
+
+                <figure>
+                    <blockquote>
+                        <img src="images/stock/4.jpg" alt="">
+                        <p>"Vi har i dag nydt en fantastisk Spansk Tapas Middag fra Gran Rågeleje Hos El Mason Canario en middag som fik os til at drømme os tilbage til den ferie vi desværre ikke fik iår på grund af Corona forbud imod af rejse..."</p>
+                    </blockquote>
+                    <figcaption>-Morten Hansen</figcaption>
+                </figure>
+
+                <figure>
+                    <blockquote>
+                        <img src="images/stock/4.jpg" alt="">
+                        <p>"Virkelig lækker mad. Et hyggeligt sted at spise"</p>
+                    </blockquote>
+                    <figcaption>—Irene Len</figcaption>
+                </figure>
+
+                <figure>
+                    <blockquote>
+                        <img src="images/stock/4.jpg" alt="">
+                        <p>Lækker mad, god servering</p>
+                    </blockquote>
+                    <figcaption>Chelsey</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="offers" id="services">
+
+            <div class="offers-wrapper">
+                <div class="offer-content">
+                    <h2>Vores vin</h2>
+                    <p>Vi tilbyder store vine til rimelige penge, kompetente og passionerede tjenere og kokke med glæde, i et hyggeligt og uformelt dansk/spansk miljø med havudsigt.</p>
+                    <a href="offers.html">Se flere tilbud</a>
+                </div>
+                <img src="images/stock/5.jpg" alt="" class="offers-image">
+            </div>
+
+        </section>
+
+        <section class="offers white" id="questions">
+
+            <div class="offers-wrapper">
+                <img src="images/stock/tapas-restaurant-el-meson-canario%20(16).jpg" alt="" class="offers-image">
+                <div class="offer-content">
+                    <h2>Spørgsmål?</h2>
+                    <p>Har du eventuelt nogen spørgsmål vedrørende kan De altid ringe til os på 50 53 91 38 eller sende en mail.
+                    </p>
+                    <a href="offers.html">Send Mail</a>
+                </div>
+
+            </div>
+
+        </section>
     </main>
+
 
     <footer>
 
     </footer>
+
+    <div class="modal-background hide">
+        <div class="modal-content">
+            <img src="" alt="" class="modal-image" />
+            <h3 class="modal-name">NAME</h3>
+
+            <p class="modal-description">LONG DESCRIPTION</p>
+            <div class="line">
+                <h4 class="modal-price">PRICE</h4>
+            </div>
+        </div>
+    </div>
 
     <script src="javascript/navigation.js"></script>
     <script src="https://kit.fontawesome.com/ee1aa6eaf4.js" crossorigin="anonymous"></script>
@@ -31,4 +199,6 @@
 
 
 
-</body></html>
+</body>
+
+</html>
