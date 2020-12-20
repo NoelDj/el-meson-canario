@@ -22,10 +22,9 @@
 
         <h1>Vores menukort</h1>
         <div class="options">
-            <button class="filter">Alle</button>
-            <button class="filter">Starter</button>
-            <button class="filter">Hovedret</button>
-            <button class="filter">Drikke</button>
+            <button class="arrange active"  data-filter="alle">Alle</button>
+            <button class="arrange" data-filter="7">Starter</button>
+            <button class="arrange" data-filter="9">Hovedret</button>
             <button class="download">Download Menu</button>
         </div>
 
@@ -50,9 +49,9 @@
 
     <!--creating a modal-->
 
-    <div class="modal-background hide">
+    <div class="modal-background gone">
         <div class="modal-content">
-           <img src="" alt="" class="modal-image" />
+            <img src="" alt="" class="modal-image" />
             <h3 class="modal-name">NAME</h3>
 
             <p class="modal-description">LONG DESCRIPTION</p>
@@ -64,7 +63,27 @@
 
     <script src="javascript/navigation.js"></script>
     <script src="https://kit.fontawesome.com/ee1aa6eaf4.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="javascript/fetch.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.arrange').click(function() {
+                const value = $(this).attr('data-filter');
+                if (value == 'alle') {
+                    $('.dish-card').show('1000');
+                } else {
+                    $('.dish-card').not('.' + value).hide('1000');
+                    $('.dish-card').filter('.' + value).show('1000');
+                }
+            })
+
+            $('.list').click(function() {
+                $(this).addClass('active').siblings().removeClass('active');
+            })
+
+        })
+
+    </script>
 
 
 

@@ -62,12 +62,12 @@ input[type="reset"] {
 
 
 
-.filter {
+.arrange {
     padding: 20px;
     display: block;
 }
 
-.filter:nth-child(1) {
+.active {
     color: var(--yellow);
 }
 
@@ -106,6 +106,6 @@ input[type="reset"] {
     object-fit: cover;
 }
 
-.hide {
+.gone {
     display: none;
 }

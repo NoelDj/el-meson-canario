@@ -18,6 +18,7 @@ function loopDishes(dish) {
 
     copy.querySelector('.dish-name').textContent = dish.title.rendered;
     copy.querySelector('img').src = dish._embedded['wp:featuredmedia'][0].source_url;
+    copy.querySelector('article').classList.add(dish.categories[0])
 
     copy.querySelector("article").addEventListener("click", () => {
         fetch(`http://quater.org/portfolio/wp-json/wp/v2/dish/${dish.id}?_embed`)
@@ -32,7 +33,7 @@ function loopDishes(dish) {
         modal.querySelector(".modal-description").textContent = id.description;
 
         //...
-        modal.classList.remove("hide");
+        modal.classList.remove("gone");
     }
 
     document.querySelector('.dishes').appendChild(copy);
@@ -40,5 +41,10 @@ function loopDishes(dish) {
 }
 
 modal.addEventListener("click", () => {
-    modal.classList.add("hide");
+    modal.classList.add("gone");
 });
+
+
+/*jquery*/
+
+
