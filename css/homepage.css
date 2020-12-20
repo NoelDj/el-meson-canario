@@ -199,7 +199,7 @@ article {}
     width: 100%;
     max-width: 1200px;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
     margin: auto;
     height: 100%;
@@ -232,16 +232,6 @@ figure img {
     margin-top: 0;
 }
 
-/*@media only screen and (max-width: 1000px) {
-    .testimonial-wrapper {
-        grid-template-columns: 1fr 1fr;
-    }
-}*/
-
-/*.card-menu {
-    min-height: 150vh;
-}*/
-
 @media only screen and (max-width: 700px) {
     .offers-wrapper {
         grid-template-columns: 1fr;
@@ -273,4 +263,8 @@ figure img {
 .logo img {
     width: 100%;
     max-width: 100px;
+}
+
+footer {
+    margin-top: 20px;
 }
