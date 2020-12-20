@@ -6,7 +6,7 @@ I can just adjust the markup from this js file.*/
 const header = document.querySelector('header');
 header.innerHTML = `
         <nav class="main-nav">
-            <div class="logo"><a href="index.html"><img src="images/logo.svg" alt=""></a></div>
+            <div class="logo"><a href="index.html"><img src="images/logo_3.png" alt=""></a></div>
             <section class="links">
                 <a href="menu.html">Menu</a>
                 <a href="catering.html">Catering</a>
