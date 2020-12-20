@@ -27,7 +27,7 @@ body {
     font-family: roboto;
     display: grid;
     min-height: 100%;
-    grid-template-rows: 100px auto auto;
+    grid-template-rows: auto auto auto;
 }
 
 /*header*/
@@ -41,6 +41,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;
 }
 
 .main-nav {
@@ -52,6 +53,7 @@ header {
     display: -o-flex;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: auto;
     color: var(--black)
 }
