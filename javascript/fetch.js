@@ -47,4 +47,20 @@ modal.addEventListener("click", () => {
 
 /*jquery*/
 
+      $(document).ready(function() {
+            $('.arrange').click(function() {
+                const value = $(this).attr('data-filter');
+                if (value == 'alle') {
+                    $('.dish-card').show('1000');
+                } else {
+                    $('.dish-card').not('.' + value).hide('1000');
+                    $('.dish-card').filter('.' + value).show('1000');
+                }
+            })
+
+            $('.arrange').click(function() {
+                $(this).addClass('active').siblings().removeClass('active');
+            })
+
+        })
 
