@@ -3,7 +3,7 @@ So I dont have to change the markup in each single html file.
 I can just adjust the markup from this js file.*/
 
 /*header*/
-/*const header = document.querySelector('header');
+const header = document.querySelector('header');
 header.innerHTML = `
         <nav class="main-nav">
             <div class="logo"><a href="index.html"><img src="images/logo.svg" alt=""></a></div>
@@ -22,7 +22,7 @@ header.innerHTML = `
             </section>
 
         </nav>
-`;*/
+`;
 
 /*footer*/
 const footer = document.querySelector('footer');
