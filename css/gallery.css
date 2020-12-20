@@ -13,3 +13,19 @@ main img {
     object-fit: cover;
     height: 600px;
 }
+
+@media only screen and (max-width: 1000px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main img {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}

@@ -172,6 +172,10 @@ footer ul {
     grid-row: 1/3;
 }
 
+.map {
+    object-fit: cover;
+}
+
 .about p {
     color: var(--white);
 }
@@ -227,6 +231,11 @@ video {
 
     .sitemap {
          grid-column: 1;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+        grid-row: 2;
     }
 
 }

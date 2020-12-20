@@ -66,3 +66,22 @@ ul {
 .contact-info p {
     color: white;
 }
+
+
+@media only screen and (max-width: 700px) {
+    .support {
+        grid-template-columns: 1fr;
+    }
+    .contact-info {
+        grid-row: 3;
+        height: 300px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .body-img {
+        height: 300px;
+        object-fit: cover;
+    }
+}
