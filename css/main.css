@@ -134,11 +134,11 @@ a {
 }
 
 .burger-menu {
-    position: absolute;
+    position: fixed;
+    bottom: 0;
     background: white;
-    height: 100%;
+    height: 84vh;
     width: 40%;
-    top: 0;
     right: 0;
     z-index: 100;
     transform: translateX(100%);
