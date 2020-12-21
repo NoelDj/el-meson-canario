@@ -12,17 +12,25 @@ header.innerHTML = `
                 <a href="catering.html">Catering</a>
                 <a href="takeaway.html">Take away</a>
                 <a href="contact.html">Contact</a>
-                <a href="about.html">Om os</a>
-                <a href="gallery.html">Galleri</a>
-                <a href="offers.html">Tilbud</a>
-                <a href="events.html">Events</a>
-                <div class="btn">
-                    <img src="images/icons/burger-menu.svg" alt="burger menu">
+                <div class="menu-btn">
+                    <div class="menu-burger"></div>
                 </div>
             </section>
 
         </nav>
 `;
+
+/*menu*/
+
+const btn = document.querySelector('.menu-btn');
+var test = true;
+btn.addEventListener('click', function () {
+    btn.classList.toggle('open');
+    document.querySelector('.burger-menu').classList.toggle('active');
+
+
+
+})
 
 /*footer*/
 const footer = document.querySelector('footer');
