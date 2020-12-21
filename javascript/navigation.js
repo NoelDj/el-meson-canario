@@ -115,14 +115,14 @@ const main = document.querySelector('main');
 main.innerHTML += `
         <nav class="burger-menu">
             <ul class="burger-list">
-                <li class="mobile"><a href="#">Catering</a></li>
-                <li class="mobile"><a href="#">Take Away</a></li>
-                <li class="mobile"><a href="#">Kontakt</a></li>
-                <li class="mobile"><a href="#">Menu</a></li>
-                <li><a href="#">Om os</a></li>
-                <li><a href="#">Begivenheder</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Tilbud</a></li>
+                <li class="mobile"><a href="catering.html">Catering</a></li>
+                <li class="mobile"><a href="takeaway.html">Take Away</a></li>
+                <li class="mobile"><a href="contact.html">Kontakt</a></li>
+                <li class="mobile"><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">Om os</a></li>
+                <li><a href="events.html">Begivenheder</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="offers.html">Tilbud</a></li>
             </ul>
             <hr>
         </nav>
