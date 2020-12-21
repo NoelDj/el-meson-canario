@@ -34,13 +34,22 @@ input[type="reset"] {
     display: inline-block;
 }
 
+.download {
+    position: absolute;
+    right: 20px;
+}
+
+.download img {
+    width: 20px;
+}
+
 .options {
     box-shadow: var(--shadow);
     display: flex;
     border-radius: 20px;
     margin-bottom: 30px;
     align-items: center;
-
+    position: relative;
     background: #ececec;
 }
 
