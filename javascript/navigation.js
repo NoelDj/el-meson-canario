@@ -20,17 +20,7 @@ header.innerHTML = `
         </nav>
 `;
 
-/*menu*/
 
-const btn = document.querySelector('.menu-btn');
-var test = true;
-btn.addEventListener('click', function () {
-    btn.classList.toggle('open');
-    document.querySelector('.burger-menu').classList.toggle('active');
-
-
-
-})
 
 /*footer*/
 const footer = document.querySelector('footer');
@@ -107,4 +97,33 @@ footer.innerHTML = `
         <section class="buttom-footer">
             <strong>El Meson Canario - 2020</strong>
         </section>
+`;
+
+/*menu*/
+
+const btn = document.querySelector('.menu-btn');
+var test = true;
+btn.addEventListener('click', function () {
+    btn.classList.toggle('open');
+    document.querySelector('.burger-menu').classList.toggle('active');
+
+
+
+})
+
+const main = document.querySelector('main');
+main.innerHTML += `
+        <nav class="burger-menu">
+            <ul class="burger-list">
+                <li class="mobile"><a href="#">Catering</a></li>
+                <li class="mobile"><a href="#">Take Away</a></li>
+                <li class="mobile"><a href="#">Kontakt</a></li>
+                <li class="mobile"><a href="#">Menu</a></li>
+                <li><a href="#">Om os</a></li>
+                <li><a href="#">Begivenheder</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Tilbud</a></li>
+            </ul>
+            <hr>
+        </nav>
 `;
