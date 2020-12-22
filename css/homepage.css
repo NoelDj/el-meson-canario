@@ -4,7 +4,7 @@ html {
 
 main {
     display: grid;
-    grid-template-rows: 35vh 25vh 20vh;
+    grid-template-rows: 350px 250px 200px;
     min-height: 100%;
     max-width: 100%;
     width: 100%;
@@ -25,6 +25,7 @@ main section {
     color: var(--white);
     grid-column: 1;
     grid-row: 1/span 3;
+    z-index:
 }
 
 .hero h1,
