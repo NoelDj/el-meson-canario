@@ -82,7 +82,7 @@ footer.innerHTML = `
                 <img src="images/stock/tapas-restaurant-el-meson-canario%20(3).jpg" alt="">
                 <img src="images/stock/tapas-restaurant-el-meson-canario%20(7).jpg" alt="">
                 <img src="images/stock/tapas-restaurant-el-meson-canario%20(5).jpg" alt="">
-                <img src="images/stock/tapas-restaurant-el-meson-canario%20(6).jpg" alt="">
+                <img src="images/stock/tapas-restaurant-el-meson-canario%20(32).jpg" alt="">
             </div>
 
             <div class="location">

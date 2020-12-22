@@ -134,10 +134,9 @@ a {
 }
 
 .burger-menu {
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    top: 0;
     background: white;
-    height: 84vh;
     width: 40%;
     right: 0;
     z-index: 100;
@@ -339,8 +338,12 @@ video {
     }
 
     .burger-menu {
+        position: absolute;
         border-top: 1px solid var(--dark);
         width: 100%;
+        height: 100vh;
+        bottom: 0;
+        right: 0;
     }
 
     .mobile {
