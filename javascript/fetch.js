@@ -30,7 +30,7 @@ function loopDishes(dish) {
         console.log(id._embedded['wp:featuredmedia'][0].source_url);
         modal.querySelector(".modal-image").src = id._embedded['wp:featuredmedia'][0].source_url;
         modal.querySelector(".modal-name").textContent = id.title.rendered;
-        modal.querySelector(".modal-description").textContent = id.description;
+        modal.querySelector(".modal-price").textContent = id.price;
 
         //...
         modal.classList.remove("gone");
