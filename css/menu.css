@@ -35,8 +35,7 @@ input[type="reset"] {
 }
 
 .download {
-    position: absolute;
-    right: 20px;
+  margin-left: auto;
 }
 
 .download img {
@@ -50,6 +49,7 @@ input[type="reset"] {
     margin-bottom: 30px;
     align-items: center;
     position: relative;
+    width: 100%;
 }
 
 .dish-card{
@@ -73,6 +73,7 @@ input[type="reset"] {
 .arrange {
     padding: 20px;
     display: block;
+    justify-self: start
 }
 
 .active {
