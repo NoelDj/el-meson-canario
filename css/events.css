@@ -13,6 +13,11 @@ article {
     grid-column: 1/-1;
 }
 
+.date {
+    font-size: 12px;
+    float: right;
+}
+
 @media only screen and (max-width: 1000px) {
     .highlighted {
         grid-column: 1;

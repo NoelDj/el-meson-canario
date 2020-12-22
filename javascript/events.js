@@ -15,8 +15,8 @@ function loopOffers(event) {
     const copy = template.cloneNode(true);
 
     copy.querySelector(".events-title").textContent = event.title.rendered;
+     copy.querySelector(".date").textContent = event.day;
 
-    /*copy.querySelector('.events-img').src = event._embedded['wp:featuredmedia'][0].source_url;*/
 
 
 
