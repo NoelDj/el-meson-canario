@@ -16,7 +16,7 @@
 /*grid container*/
 .dishes {
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
 }
 
@@ -35,7 +35,8 @@ input[type="reset"] {
 }
 
 .download {
-  margin-left: auto;
+    margin-left: auto;
+    padding-right: 20px;
 }
 
 .download img {
@@ -52,7 +53,7 @@ input[type="reset"] {
     width: 100%;
 }
 
-.dish-card{
+.dish-card {
     text-align: center;
     border-radius: 20px;
     box-shadow: var(--shadow);
@@ -81,7 +82,7 @@ input[type="reset"] {
 }
 
 .dish-name {
-   display: block;
+    display: block;
     padding: 10px;
 }
 

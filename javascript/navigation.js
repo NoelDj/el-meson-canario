@@ -46,14 +46,14 @@ footer.innerHTML = `
             <nav class="sitemap">
                 <h3 class="footer-heading">Sitemap</h3>
                 <ul>
-                    <li><a href="#">Catering</a></li>
-                    <li><a href="#">Take Away</a></li>
-                    <li><a href="#">Kontakt</a></li>
-                    <li><a href="#">Om os</a></li>
-                    <li><a href="#">Begivenheder</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Forside</a></li>
+                    <li><a href="catering.html">Catering</a></li>
+                    <li><a href="takeaway.html">Take Away</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
+                    <li><a href="about.html">Om os</a></li>
+                    <li><a href="events.html">Begivenheder</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="index.html">Forside</a></li>
                 </ul>
             </nav>
 
@@ -106,7 +106,6 @@ var test = true;
 btn.addEventListener('click', function () {
     btn.classList.toggle('open');
     document.querySelector('.burger-menu').classList.toggle('active');
-
 
 
 })
