@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+@font-face {
+    font-family: 'Luthier-Regular';
+    src: url('Luthier-Regular.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -108,13 +116,13 @@ a {
 .menu-burger::before {
     transform: translateY(-8px);
     transition: all 0.5s ease-in-out;
-     border-radius: 10px;
+    border-radius: 10px;
 }
 
 .menu-burger::after {
     transform: translateY(8px);
     transition: all 0.5s ease-in-out;
-     border-radius: 10px;
+    border-radius: 10px;
 }
 
 /*animation*/
@@ -176,7 +184,7 @@ main {
 
     /*hide the menu bar*/
 
-     overflow: hidden;
+    overflow: hidden;
 }
 
 h1 {
@@ -329,7 +337,7 @@ video {
     }
 
     .sitemap {
-         grid-column: 1;
+        grid-column: 1;
     }
 
     .gallery {

@@ -86,6 +86,17 @@ input[type="reset"] {
     padding: 10px;
 }
 
+.price {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: white;
+    border-top-left-radius: 5px;
+    margin-bottom: 0;
+    padding: 5px;
+    color: var(--green)
+}
+
 
 /*modal*/
 

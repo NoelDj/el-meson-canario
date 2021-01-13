@@ -21,11 +21,12 @@
     <main class="support">
         <h1>Kontakt os</h1>
 
-        <img src="images/map.PNG" alt="" class="body-img">
 
+        <div id="map">
+        </div>
 
         <form action="">
-           <h2>Skriv til os</h2>
+            <h2>Skriv til os</h2>
             <label for="">Navn</label>
             <input type="text">
 
@@ -57,6 +58,26 @@
 
     <script src="javascript/navigation.js"></script>
     <script src="https://kit.fontawesome.com/ee1aa6eaf4.js" crossorigin="anonymous"></script>
+
+    <script>
+        function initMap() {
+            var location = {
+                lat: 56.09848264391273,
+                lng: 12.159695646022259
+            };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 10,
+                center: location
+            });
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map
+            });
+        }
+
+    </script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBVMlbxaWaj0qLcg-8R_7offaeXsKCa7E&callback=initMap">
+    </script>
 
 
 
